@@ -1,9 +1,24 @@
-const add = (num) => {
-  let sum = 0;
-  const arr = num.toString().split([" "]);
+function add() {
+  let result = 0;
 
-  // for (let i = 0; i < num.length; i++) {}
-  return arr;
+  for (let i = 0; i < arguments.length; i++) {
+    result += arguments[i];
+  }
+
+  return result;
+}
+
+function multiply() {
+  let result = 1;
+
+  for (let i = 0; i < arguments.length; i++) {
+    result *= arguments[i];
+  }
+
+  return result;
+}
+
+module.exports = {
+  add,
+  multiply,
 };
-
-console.log(add(-1, -1));

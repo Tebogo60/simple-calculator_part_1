@@ -2,7 +2,7 @@
   "name": "simple-calculator_part_1",
   "version": "1.0.0",
   "description": "",
-  "main": "calculator.js",
+  "main": "src/simple-calculator.js",
   "scripts": {
     "test": "jasmine"
   },
