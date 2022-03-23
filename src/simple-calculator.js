@@ -4,7 +4,6 @@ function add() {
   for (let i = 0; i < arguments.length; i++) {
     result += arguments[i];
   }
-
   return result;
 }
 
@@ -14,7 +13,6 @@ function multiply() {
   for (let i = 0; i < arguments.length; i++) {
     result *= arguments[i];
   }
-
   return result;
 }
 
